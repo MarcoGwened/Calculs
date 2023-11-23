@@ -37,6 +37,9 @@ namespace Calculs
                             // traitement des choix
                             if (choix != 0)
                             {
+                                // création de 2 nombres aléatoires
+                                val1 = rand.Next(1, 10);
+                                val2 = rand.Next(1, 10);
                                 if (choix == 1)
                                 {
                                     // choix de l'addition
